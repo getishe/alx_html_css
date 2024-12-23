@@ -62,7 +62,7 @@
   } */
 
   header .search-bar {
-    border: 2px solid #333;
+    border: 2px solid #f5f5f5;
     /* display: flex;
     justify-content: center;
     margin-bottom: 20px; */
@@ -188,7 +188,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin-bottom: 70px; */
     /* margin: 20px 0;
     padding: 20px; */
@@ -211,10 +211,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid blue;
-    margin: 20px 0;
+    /* border: 2px solid blue; */
+    margin:  0;
     padding: 20px;
-    margin-bottom: 37px;
+    /* margin-bottom: 37px; */
     gap: 110px;
     
   }
@@ -250,7 +250,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 120px; 
     gap: 20px;
     
@@ -294,8 +294,8 @@
 .banner-header {
   color: #333;
   font-weight:lighter;
-  margin-bottom: 99px;
-  margin-top: 80px;
+  /* margin-bottom: 99px; */
+  /* margin-top: 65.5px; */
 }
   .banner-header::first-letter{
   text-transform: capitalize;
@@ -312,9 +312,33 @@ display: flex;
   font-weight: 700 ;
   text-transform: none;
 }
+.container-author{
+ position: relative; /*Establishes a positioning context for children elements */
+ width: max-content; /*Sets the width of the container to the width of the content */
 
+}
 
+.container-author .image{
+  display: block;
+  /* width: 146px; Adjust the size as needed */
+  /* height: 146px; Adjust the size as needed */
+  /* border-radius: 50%; */
+  /* object-fit: cover; Ensure the image covers the entire area */
+}
 
+.container-author .play{
+  position: absolute; /*Sets the position of the element relative to the nearest positioned ancestor */
+  top: 50%; /*Sets the top edge of the element to the middle of the parent element */
+  left: 50%; /*Sets the left edge of the element to the middle of the parent element */
+  transform: translate(-50%, -50%); /*Moves the element 50% of its width to the left and 50% of its height up */
+  /* background-color: #333; */
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
 
   
 
