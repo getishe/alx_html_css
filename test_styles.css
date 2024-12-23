@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Source Sans Pro Light Italic';
+    src: url('source-sans-pro/SourceSansPro-LightItalic.otf') format('opentype');
+}
+
+.test-font {
+    font-family: 'Source Sans Pro Light Italic';
+    font-size: 16px;
+    color: #000;
+}
+
