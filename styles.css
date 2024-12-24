@@ -199,6 +199,7 @@
     font-size: 30px;
     text-align: center;
     margin-bottom: 2px;
+    margin-top: 80px;
   }
 
   .banner-header span {
@@ -301,11 +302,14 @@
   text-transform: capitalize;
 }
 .banner-three{
+  padding: auto 0;
 width: 100%;
 max-width: 1200px;
-margin: 90px;
-padding: 0 20px;
+/* border: 2px solid #cc4d4d; */
+margin: 0 auto;
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .banner-header span {
@@ -340,10 +344,33 @@ display: flex;
   cursor: pointer;
 }
 
+.banner-three h3{
+  text-transform: capitalize;
+  font-size: 16px;
+  color: black;
+  margin-top: 20px;
+}
+
+/* .banner-three{
+  border: 2px solid #f5c3c3;
+  align-items: center;
   
+} */
 
-  
+.author p{
+  /* border: 2px solid #d88686; */
+  /* padding: 6px;  */
+  font-size: 14px;
+  color: #333;
+}
 
 
+.container-block-one{
+  border: 2px solid #333;
+  margin-left: 23px;
+}
+.box{
+  padding: 15px;
+}
 
 
