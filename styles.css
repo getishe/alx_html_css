@@ -389,5 +389,33 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid #333; 
 }
 
+.stars p{
+  /* color: #333; */
+  /* font-size: 16px;
+  margin-top: 0; */
+  color: rgb(179, 107, 247);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.content{
+  display: flex;
+  /* justify-content:center; */
+  gap: 10px;
+  align-items: center;
+  border: 2px solid #333;
+}
+.image-small{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.content h3{
+     color: rgb(179, 107, 247);
+     font-size: 13px;
+}
