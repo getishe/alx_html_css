@@ -503,10 +503,11 @@ align-items: center;
   border: 2px solid #771d1d;
   
 }
-h2.banner-header {
+#banner-header {
 text-transform: uppercase;
 font-size: 60px;
 font-weight: 100;
+text-align: center;
   /* margin-bottom: 99px; */
   /* margin-top: 65.5px; */
 }
@@ -567,13 +568,6 @@ font-weight: 100;
 
 .faq-item h3 {
     font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.faq-item p {
-    font-size: 16px;
-    color: #555;
-}
 
 footer {
     background-color: #333;
