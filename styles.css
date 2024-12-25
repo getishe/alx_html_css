@@ -358,16 +358,24 @@ align-items: center;
 } */
 .author{
   border: 2px solid #d88686;
+  padding: 1px;
+  line-height: 1;
+  margin-top: 0;
 }
 .author p{
 
   /* padding: 6px;  */
   font-size: 14px;
   color: #333;
-
+  border: 2px solid #333;
+  margin-top:0;
 
 }
-
+.author h3{
+  font-size: 16px;
+  color: #333;
+  margin-top: 0;
+}
 
 .container-block-one{
   border: 2px solid #333;
@@ -377,4 +385,9 @@ align-items: center;
   padding: 15px;
 }
 
+.stars{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
