@@ -356,9 +356,11 @@ align-items: center;
   align-items: center;
   
 } */
-
+.author{
+  border: 2px solid #d88686;
+}
 .author p{
-  /* border: 2px solid #d88686; */
+
   /* padding: 6px;  */
   font-size: 14px;
   color: #333;
