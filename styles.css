@@ -419,3 +419,81 @@ align-items: center;
      color: rgb(179, 107, 247);
      font-size: 13px;
 }
+
+/* free membership */
+
+.banner-four{
+  background-color: #071629;
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 2px solid red;
+  margin-top: 90px ;
+  /* gap: 20px; */
+  
+ }
+
+  .banner-four  > h2{
+  color: #fff;
+  /* font-weight: thinner; */
+  /* margin-bottom: 99px; */
+  /* margin-top: 65.5px; */
+ }
+
+ .banner-four img{
+  border: 2px solid #333;
+  margin-left: 75px;
+ }
+
+ .quote{
+  border: 2px solid #333;
+
+ }
+
+ .quote blockquote{
+  text-align: start;
+   font-size: 16px;
+   text-transform: none;
+   color: #fff;
+  font-size: 21px;
+ }
+
+ .container-block-five{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  /* margin: 0 auto; */
+  max-width: 1200px;
+  padding: 20px;
+  /* margin-bottom: 37px; */
+  /* gap: 110px; */
+  margin: 90px;
+
+}
+
+.container-instructor{
+  color: #fff;
+  border: 2px solid #333;
+  margin-left: 30px;
+  text-align: center;
+}
+ .container-instructor h3{
+   text-transform: capitalize;
+ }
+ .container-instructor p{
+   /* text-transform: capitalize; */
+   font-family: 'Source Sans Pro';
+   /* text-transform: capitalize; */
+   font-size: 16px;
+   
+ }
+.container-instructor img{
+  border: 2px solid #d15252;
+  /* margin-left: 75px; */
+  margin: 0 auto;
+}
+.req{
+  margin-bottom: 55px;
+}
