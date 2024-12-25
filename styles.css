@@ -497,3 +497,125 @@ align-items: center;
 .req{
   margin-bottom: 55px;
 }
+
+/* ... frquently asked questions existing code... */
+.banner-five{
+  border: 2px solid #771d1d;
+  
+}
+h2.banner-header {
+text-transform: uppercase;
+font-size: 60px;
+font-weight: 100;
+  /* margin-bottom: 99px; */
+  /* margin-top: 65.5px; */
+}
+
+.container-block-six{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue; 
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 0 auto;
+  width: 100%;
+  /* margin-bottom: 37px; */
+  column-gap: 210px;
+  /* margin: 90px; */ 
+
+}
+
+.container-question{
+  color: #333;
+  border: 2px solid #333;
+  margin-left: 30px;
+  /* text-align: center; */
+  margin-bottom: 50px;
+}
+ .container-question h3{
+   text-transform: capitalize;
+   color: black;
+   font-size: medium;
+ }
+ .container-question p{
+   /* text-transform: capitalize; */
+   font-family: 'Source Sans Pro';
+   /* text-transform: capitalize; */
+   font-size: 14px;
+   line-height: 1.5;
+   /* padding: 12px; */
+   
+ }
+
+/* 
+#faq {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+#faq h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.smile-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.foot {
+    flex: 1;
+}
+
+.foot img {
+    max-width: 100px;
+}
+
+.foot ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.foot ul li {
+    margin: 0 10px;
+}
+
+.foot ul li i {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.9em;
+} */
