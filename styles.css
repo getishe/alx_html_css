@@ -192,6 +192,14 @@
     margin-right: 50px;
     margin: 20px auto;
     display: block;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    
   }
 
   /* learn from the pros */
