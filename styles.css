@@ -580,9 +580,10 @@ footer{
   border: 2px solid #c70d0d;
 }
 
-/* .foot{
-  flex: 1;
-} */
+.foot{
+  border: 2px solid #333;
+  margin-right: 80px;
+}
 .foot ul{
   list-style: none;
   padding: 0;
