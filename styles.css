@@ -175,11 +175,7 @@
     /* border: 2px solid #333;  */
      align-items: center;
     border-radius: 5px;
-<<<<<<< HEAD
-    border: 2px solid #e01e1e;
-=======
     border: 2px solid #f0f0f0;
->>>>>>> 50ede38d8c14ed791d3a3c6bbc8bb2079b541aa7
     margin-bottom: 70px;
     margin-left: 80px;
     /* margin: 20px 0; */
@@ -249,14 +245,6 @@
     padding: 20px; */
   }
 
-<<<<<<< HEAD
- h2.banner-header {
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 23px;
-    margin-top: 199px;
-=======
   h2.banner-header {
     font-size: 32px;
     text-align: center;
@@ -274,7 +262,6 @@
     margin-bottom: 8px;
     margin-left: 70px;
     border: 2px solid #ce2121;
->>>>>>> 50ede38d8c14ed791d3a3c6bbc8bb2079b541aa7
   }
 
   .banner-header span {
@@ -287,18 +274,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    border: 2px solid blue;
-    margin:  0;
-    padding: 20px;
-    margin-top: 90px;
-    /* margin-top: 30px; */
-=======
     border: 2px solid rgb(188, 188, 216);
     margin:  0;
     /* padding: 20px ; */
     /* margin-bottom: 37px; */
->>>>>>> 50ede38d8c14ed791d3a3c6bbc8bb2079b541aa7
     gap: 110px;
     margin-bottom: none;
   }
@@ -466,11 +445,6 @@ align-items: center;
   /* padding: 6px;  */
   font-size: 14px;
   color: #333;
-<<<<<<< HEAD
-}
-.author {
-  border: 2px solid #d88686;
-=======
   border: 2px solid #333;
   margin-top:0;
 
@@ -479,7 +453,6 @@ align-items: center;
   font-size: 16px;
   color: #333;
   margin-top: 0;
->>>>>>> 50ede38d8c14ed791d3a3c6bbc8bb2079b541aa7
 }
 
 .container-block-one{
@@ -490,10 +463,6 @@ align-items: center;
   padding: 15px;
 }
 
-<<<<<<< HEAD
-.box{
-  border: 2px solid #e41a1a;
-=======
 .stars{
   display: flex;
   justify-content: space-between;
@@ -717,5 +686,4 @@ footer p{
   padding-top: 40px;
   /* padding-bottom: 40px; */
   padding-bottom: 30px;
->>>>>>> 50ede38d8c14ed791d3a3c6bbc8bb2079b541aa7
 }
