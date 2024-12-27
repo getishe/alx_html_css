@@ -230,6 +230,7 @@
    .banner-one #blog{
     font-size: 32px;
     text-align: center;
+    color: #fff;
     /* margin-bottom: 2px; */
     /* margin-top: 146px; */
     margin-bottom: 8px;
@@ -271,11 +272,25 @@
    }
    .container-bannerone p{
      /* text-transform: capitalize; */
-     font-family: 'Source Sans Pro Light Italic';
+     font-family: 'Source Sans Pro';
      /* text-transform: capitalize; */
      font-size: 16px;
+     font-style: italic;
+     font-weight: 400;
+     color: rgb(248, 245, 245);
+     border: 2px solid #a32a2a;
      
    }
+
+   .container-bannerone p::first-letter {
+    text-transform: capitalize;
+     }
+
+     .min-gap {
+      margin-bottom: 0; /* Adjust the value as needed */
+      padding-bottom: 0; /* Adjust the value as needed */
+      border: 2px solid #a11818;
+  }
 
 
    /* banner-two */

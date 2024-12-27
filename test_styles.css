@@ -101,3 +101,8 @@ h2.banner-header #blog {
     margin-bottom: 48px;
     margin-top: 80px;
 }
+
+/* Test for .container-bannerone
+.container-bannerone::first-letter {
+    text-transform: capitalize;
+}
