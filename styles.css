@@ -29,6 +29,11 @@
     font-weight: 400;
     
   }
+  header{
+    border: 12px solid pink;
+   /* margin-bottom: 484px; */
+
+  }
 
   header .container {
     width: 100%;
@@ -43,19 +48,40 @@
     padding: 10px 0;
     text-align: center;
     /* border: 9px solid pink; */
-    padding-bottom: 40px;
+    /* padding-bottom: -57px; */
   }
 
-  header  {
+  header   {
     background-image: url(assets/2d6ece16dd7ab4ed2701047586bc80f0cb68835c/CSS\ Advanced/object.png);
-    /* background-size: cover; */
-    background-clip: border-box; 
+    background-size: cover; 
+     background-clip: border-box; 
+    background-repeat: no-repeat; 
+ 
+
+     background-size: auto 109%; 
+
+    /* Increase the height of the image */ 
+    /* background-position: bottom; */
+    /* Position the image at the bottom */
+     /* object-fit: cover;  */
+   /* background-size: contain; */
+    /* object-fit: cover;  */
+    /* background-clip: border-box; 
     background-repeat: no-repeat;
-   
+
+
+
+
+    /* width: auto;
+    /* height: 1500px; */
+ 
+    /* margin-bottom: 77px; */
     /* there for fixed to apply the effect  */
    /* background-attachment: fixed; */
-    /* background-position: 100%;  */ 
+    /* background-position: 100%;   */
   }
+
+
 
   /* header a {
   border: 2px solid #333;
@@ -133,7 +159,7 @@
     /* border: 2px solid #333;  */
      align-items: center;
     border-radius: 5px;
-    /* border: 2px solid #f0f0f0; */
+    border: 2px solid #e01e1e;
     margin-bottom: 70px;
     /* margin: 20px 0; */
     /* padding: 20px; */
@@ -194,12 +220,12 @@
     padding: 20px; */
   }
 
-  .banner-header {
+ h2.banner-header {
     color: #fff;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 2px;
-    margin-top: 80px;
+    margin-bottom: 23px;
+    margin-top: 199px;
   }
 
   .banner-header span {
@@ -212,10 +238,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     margin:  0;
     padding: 20px;
-    /* margin-bottom: 37px; */
+    margin-top: 90px;
+    /* margin-top: 30px; */
     gap: 110px;
     
   }
@@ -238,6 +265,7 @@
      /* text-transform: capitalize; */
      font-family: 'Source Sans Pro Light Italic';
      /* text-transform: capitalize; */
+     border:2px solid #333;
      font-size: 16px;
      
    }
@@ -363,7 +391,9 @@ align-items: center;
   font-size: 14px;
   color: #333;
 }
-
+.author {
+  border: 2px solid #d88686;
+}
 
 .container-block-one{
   border: 2px solid #333;
@@ -373,4 +403,6 @@ align-items: center;
   padding: 15px;
 }
 
-
+.box{
+  border: 2px solid #e41a1a;
+}
