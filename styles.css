@@ -42,7 +42,8 @@
     
   }
   header{
-    /* border: 12px solid pink; */
+    font-style: normal;
+   /* border: 12px solid pink; */ 
    /* margin-bottom: 484px; */
 
   }
@@ -295,6 +296,8 @@
   }
    .container-bannerone h3{
      text-transform: capitalize;
+     margin-bottom: 0;
+     margin-top: 0;
    }
    .container-bannerone p{
      /* text-transform: capitalize; */
@@ -317,6 +320,7 @@
       margin-bottom: 0; /* Adjust the value as needed */
       padding-bottom: 0; /* Adjust the value as needed */
       border: 2px solid #a11818;
+      margin-top: 0px;
   }
 
 
