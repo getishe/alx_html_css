@@ -69,10 +69,9 @@
     background-size: cover; 
      background-clip: border-box; 
     background-repeat: no-repeat; 
- 
-
      background-size: auto 109%; 
-
+    
+  }
     /* Increase the height of the image */ 
     /* background-position: bottom; */
     /* Position the image at the bottom */
@@ -92,13 +91,15 @@
     /* there for fixed to apply the effect  */
    /* background-attachment: fixed; */
     /* background-position: 100%;   */
-  }
+  
 
 
 
   /* header a {
   border: 2px solid #333;
   } */
+
+
 
   .log {
   margin-left: 80px; 
