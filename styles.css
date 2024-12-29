@@ -239,7 +239,7 @@
   .btn:hover {
     background-color: #333;
     color: #fff;
-    /* border: 2px solid #333; */
+    border: 2px solid #333;
     
   }
 
