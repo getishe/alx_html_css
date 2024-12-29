@@ -239,7 +239,7 @@
   .btn:hover {
     background-color: #333;
     color: #fff;
-    border: 2px solid #333;
+    /* border: 2px solid #333; */
     
   }
 
@@ -249,7 +249,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: none;
     /* margin: 20px 0;
     padding: 20px; */
@@ -273,7 +273,7 @@
     /* margin-top: 146px; */
     margin-bottom: 8px;
     margin-left: 70px;
-    border: 2px solid #ce2121;
+    /* border: 2px solid #ce2121; */
   }
 
   .banner-header span {
@@ -286,7 +286,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(188, 188, 216);
+    /* border: 2px solid rgb(188, 188, 216); */
     margin:  0;
     /* padding: 20px ; */
     /* margin-bottom: 37px; */
@@ -306,7 +306,7 @@
 
   .container-bannerone{
     color: #fff;
-    border: 2px solid #b61d1d;
+    /* border: 2px solid #b61d1d; */
   }
    .container-bannerone h3{
      text-transform: capitalize;
@@ -324,7 +324,7 @@
      font-style: italic;
      font-weight: 100;
      color: rgb(248, 245, 245);
-     border: 2px solid #a32a2a;
+     /* border: 2px solid #a32a2a; */
      
    }
 
@@ -370,13 +370,13 @@
    }
 
    .banner-two img{
-    border: 2px solid #333;
+    /* border: 2px solid #333; */
     margin-left: 75px;
    }
 
    .quote{
-    border: 2px solid #333;
-
+    /* border: 2px solid #333; */
+    font-family: 'Source Sans Pro';
    }
    .quote blockquote{
     text-align: start;
@@ -407,7 +407,7 @@
 .banner-header {
   color: #333;
   font-weight:lighter;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   /* margin-bottom: 99px; */
   /* margin-top: 65.5px; */
 }
@@ -470,7 +470,7 @@ align-items: center;
   
 } */
 .author{
-  border: 2px solid #d88686;
+  /* border: 2px solid #d88686; */
   padding: 1px;
   line-height: 1;
   margin-top: 0;
@@ -480,7 +480,7 @@ align-items: center;
   /* padding: 6px;  */
   font-size: 14px;
   color: #333;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-top:0;
 
 }
@@ -491,7 +491,7 @@ align-items: center;
 }
 
 .container-block-one{
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-left: 23px;
 }
 .box{
@@ -502,7 +502,7 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #333; 
+  /* border: 2px solid #333;  */
 }
 
 .stars p{
@@ -519,7 +519,7 @@ align-items: center;
   /* justify-content:center; */
   gap: 10px;
   align-items: center;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
 }
 .image-small{
   width: 30px;
@@ -556,13 +556,13 @@ align-items: center;
  }
 
  .banner-four img{
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-left: 75px;
  }
 
  .quote{
-  border: 2px solid #333;
-
+  /* border: 2px solid #333; */
+  font-family: 'Source Sans Pro';
  }
 
  .quote blockquote{
@@ -577,7 +577,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   /* margin: 0 auto; */
   max-width: 1200px;
   padding: 20px;
@@ -589,7 +589,7 @@ align-items: center;
 
 .container-instructor{
   color: #fff;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-left: 30px;
   text-align: center;
 }
@@ -604,18 +604,19 @@ align-items: center;
    
  }
 .container-instructor img{
-  border: 2px solid #d15252;
+  /* border: 2px solid #d15252; */
   /* margin-left: 75px; */
   margin: 0 auto;
 }
 .req{
   margin-bottom: 55px;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
 }
 
 /* ... frquently asked questions existing code... */
 .banner-five{
-  border: 2px solid #771d1d;
+  /* border: 2px solid #771d1d; */
+  font-family: 'Source Sans Pro';
   
 }
 #banner-header {
@@ -632,7 +633,7 @@ text-align: center;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  border: 2px solid blue; 
+  /* border: 2px solid blue;  */
   margin: 0 auto;
   max-width: 950px;
   padding: 0 auto;
@@ -645,7 +646,7 @@ text-align: center;
 
 .container-question{
   color: #333;
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-left: 30px;
   /* text-align: center; */
   margin-bottom: 50px;
@@ -680,11 +681,11 @@ footer{
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
-  border: 2px solid #c70d0d;
+  /* border: 2px solid #c70d0d; */
 }
 
 .foot{
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   margin-right: 80px;
   
 }
@@ -709,7 +710,7 @@ footer{
 
 footer p{
 
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   color: #ebe6e6;
   font-size: 13px;
   font-weight: 100;
