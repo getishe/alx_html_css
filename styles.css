@@ -69,8 +69,16 @@
     background-size: cover; 
      background-clip: border-box; 
     background-repeat: no-repeat; 
-     background-size: auto 109%; 
+    /* justify-content: center; */
+    background-color: #071629;
+ 
+   
     
+    /* text-align: center; */
+    background-size: auto;
+     /* background-size: auto 109%;  */
+     /* background-size: auto 85%; */
+    /* padding-bottom: 10px; */
   }
     /* Increase the height of the image */ 
     /* background-position: bottom; */
@@ -177,7 +185,7 @@
     /* border: 2px solid #333;  */
      align-items: center;
     border-radius: 5px;
-    border: 2px solid #f0f0f0;
+    /* border: 2px solid #f0f0f0; */
     margin-bottom: 70px;
     margin-left: 80px;
     /* margin: 20px 0; */
@@ -259,6 +267,8 @@
     font-size: 32px;
     text-align: center;
     color: #fff;
+    padding-top: 30px;
+    font-weight: 100;
     /* margin-bottom: 2px; */
     /* margin-top: 146px; */
     margin-bottom: 8px;
@@ -280,6 +290,9 @@
     margin:  0;
     /* padding: 20px ; */
     /* margin-bottom: 37px; */
+    
+    padding-top: 130px;
+    padding-bottom: 90px;
     gap: 110px;
     margin-bottom: none;
   }
@@ -293,35 +306,52 @@
 
   .container-bannerone{
     color: #fff;
-    border: 2px solid #333;
+    border: 2px solid #b61d1d;
   }
    .container-bannerone h3{
      text-transform: capitalize;
      margin-bottom: 0;
      margin-top: 0;
+     font-size: 18px;
    }
    .container-bannerone p{
      /* text-transform: capitalize; */
      font-family: 'Source Sans Pro';
+     font-style: italic;
      /* text-transform: capitalize; */
-     border:2px solid #333;
+     /* border:2px solid #333; */
      font-size: 16px;
      font-style: italic;
-     font-weight: 400;
+     font-weight: 100;
      color: rgb(248, 245, 245);
      border: 2px solid #a32a2a;
      
    }
 
+   .container-bannerone p::before {
+    content: "\003C\003C"; /* Unicode for less than sign */
+    margin-right: 5px; /* Optional: Add some space after the sign */
+    font-size: 12px;
+    font-family: 'Source Sans Pro';
+}
+   .container-bannerone p::after {
+    content: "\003E\003E"; /* Unicode for less than sign */
+    margin-right: 5px; /* Optional: Add some space after the sign */
+    font-size: 12px;
+
+}
+
    .container-bannerone p::first-letter {
     text-transform: capitalize;
      }
 
-     .min-gap {
+    .container-bannerone  p.min-gap {
       margin-bottom: 0; /* Adjust the value as needed */
       padding-bottom: 0; /* Adjust the value as needed */
-      border: 2px solid #a11818;
+      /* border: 2px solid #a11818; */
       margin-top: 0px;
+      font-size: 16px;
+      font-weight: 100;
   }
 
 
@@ -511,7 +541,8 @@ align-items: center;
   /* text-align: center; */
   /* justify-content: center; */
   /* align-items: center; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  padding: 2px;
   margin-top: 90px ;
   /* gap: 20px; */
   
@@ -579,6 +610,7 @@ align-items: center;
 }
 .req{
   margin-bottom: 55px;
+  border: 2px solid #333;
 }
 
 /* ... frquently asked questions existing code... */
