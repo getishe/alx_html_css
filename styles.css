@@ -60,7 +60,7 @@
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    border: 9px solid pink;
+    /* border: 9px solid pink; */
     /* padding-bottom: -57px; */
   }
 
@@ -192,7 +192,7 @@
 
   .banner {
     
-    border: 2px solid #ec0f0f; 
+    /* border: 2px solid #ec0f0f;  */
      align-items: center;
     border-radius: 5px;
     /* border: 2px solid #f0f0f0; */
@@ -209,7 +209,7 @@
     text-align: center;
     
     margin-bottom: 0px;
-    border: 2px solid #333;
+    /* border: 2px solid #333; */
   }
 
   .banner h1:first-letter {
@@ -283,6 +283,7 @@
     color: #fff;
     padding-top: 30px;
     font-weight: 100;
+    
     /* margin-bottom: 2px; */
     /* margin-top: 146px; */
     margin-bottom: 8px;
@@ -482,7 +483,7 @@ align-items: center;
 }
 
 .banner-three{
-  border: 9px solid #f5c3c3;
+  /* border: 9px solid #f5c3c3; */
   /* align-items: center; */
   
 }
@@ -508,19 +509,19 @@ align-items: center;
 }
 
 .container-block-one{
-  border: 2px solid #333;
+  /* border: 2px solid #333; */
   /* margin-left: 23px; */
 }
 .box{
   padding: 15px;
-  border: 2px solid #c52828;
+  /* border: 2px solid #c52828; */
 }
 
 .stars{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #333; 
+  /* border: 2px solid #333;  */
 }
 
 .stars p{
