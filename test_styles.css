@@ -133,7 +133,13 @@
     .banner-three {
       flex-wrap: wrap;
     }
-  
+    .container-block-five {
+      /* border: 2px solid red; */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      padding: 0 20px;
+    }
     .container-block-six {
       grid-template-columns: repeat(2, 1fr);
       gap: 40px;
@@ -192,10 +198,14 @@
       flex-direction: column;
     }
   
-    .container-block {
-      flex-direction: column;
-      gap: 30px;
-    }
+     .container-block {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 40px 20px;
+
+     
+    } 
   
     .container-block-five {
       flex-direction: column;
@@ -222,6 +232,11 @@
   
   /* Small Mobile (375px and below) */
   @media screen and (max-width: 375px) {
+    .container-block {
+      display: block;
+      flex-direction: column;
+      gap: 30px;
+    }
     .banner h1 {
       font-size: 36px;
     }
