@@ -1,8 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 /* * {
     font-family: 'Source Sans Pro', sans-serif;
   }
@@ -27,14 +23,13 @@
     font-family: 'Source Sans Pro', sans-serif;
   } */
 
-  /* html, body{
-    font-family: 'Source Sans Pro', sans-serif;
+  html, body{
+    font-family: 'Source Sans Pro';
     height: 100%;
     margin: 0;
     padding: 0;
-
-  
-  } */
+    box-sizing: border-box;
+  } 
 
   main {
     flex:1;
