@@ -102,14 +102,7 @@
 /* Desktop (1024px and up) */
 @media screen and (min-width: 1024px) {
     /* Default styles already handle desktop */
-    
   }
-
-  @media (min-width: 1447px) {
-    header {
-        background-size: cover;  /* Or 'cover', depending on how you want the image to scale */
-    }
-}
   
   /* Tablet (768px to 1023px) */
   @media screen and (max-width: 1023px) {
@@ -133,13 +126,7 @@
     .banner-three {
       flex-wrap: wrap;
     }
-    .container-block-five {
-      /* border: 2px solid red; */
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 40px;
-      padding: 0 20px;
-    }
+  
     .container-block-six {
       grid-template-columns: repeat(2, 1fr);
       gap: 40px;
@@ -149,6 +136,9 @@
   
   /* Mobile (767px and below) */
   @media screen and (max-width: 767px) {
+  body{
+    width: 100%;
+  }
     header .container {
       flex-direction: column;
       
@@ -198,14 +188,10 @@
       flex-direction: column;
     }
   
-     .container-block {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      padding: 40px 20px;
-
-     
-    } 
+    .container-block {
+      flex-direction: column;
+      gap: 30px;
+    }
   
     .container-block-five {
       flex-direction: column;
@@ -232,11 +218,6 @@
   
   /* Small Mobile (375px and below) */
   @media screen and (max-width: 375px) {
-    .container-block {
-      display: block;
-      flex-direction: column;
-      gap: 30px;
-    }
     .banner h1 {
       font-size: 36px;
     }
@@ -252,18 +233,8 @@
   
     .container-block-one {
       margin-left: 0;
+      /* border: 2px solid #333; */
+      margin-left: 20px ;
     }
-    .banner-one #blog{
-      margin: auto 0;
-    }
-    .banner-two img{
-      margin: auto 0;
-    }
-    /* .container-question p{
-      border: 2px solid #333;
-      margin: auto 0;
-    } */
   }
-
- 
   
