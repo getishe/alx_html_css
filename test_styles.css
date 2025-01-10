@@ -136,6 +136,9 @@
   
   /* Mobile (767px and below) */
   @media screen and (max-width: 767px) {
+  body{
+    width: 100%;
+  }
     header .container {
       flex-direction: column;
       
