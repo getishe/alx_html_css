@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro';
-  }
-
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
 /* * {
     font-family: 'Source Sans Pro', sans-serif;
   }
@@ -29,20 +29,16 @@
     font-family: 'Source Sans Pro', sans-serif;
   } */
 
-  html, body{
-    font-family: 'Source Sans Pro';
-    height: 100%;
-  
-  } 
+
 
   main {
     flex:1;
     min-height: calc(100vh - 100px); /* /* Adjust the value based on your footer height 100px is the height of the header */
   }
-  body {
+  html, body {
     /* width: 100vw; */
-    background-color: #f5f5f5;
-   
+  /* background-color: ; */
+    height: 100%;
     font-family: 'Source Sans Pro';
     font-weight: 400;
   
@@ -66,7 +62,7 @@
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    /* border: 9px solid pink; */
+    border: 9px solid pink;
     /* padding-bottom: -57px; */
   }
 
@@ -198,11 +194,10 @@
   }
 
   .banner {
-    
-    /* border: 2px solid #ec0f0f;  */
-     align-items: center;
+    margin-top: 120px;
+    align-items: center;
     border-radius: 5px;
-    /* border: 2px solid #f0f0f0; */
+    border: 2px solid #f0f0f0;
     margin-bottom: 110px;
     margin-left: 85px;
     /* margin: 20px 0; */
@@ -216,7 +211,7 @@
     text-align: center;
     
     margin-bottom: 0px;
-    /* border: 2px solid #333; */
+    border: 2px solid #333;
   }
 
   .banner h1:first-letter {
@@ -234,7 +229,7 @@
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 2px;
+    /* margin-top: 12px; */
     margin-right: 60px;
     color: #fff;
     text-align: center;
