@@ -4,7 +4,141 @@
     box-sizing: border-box;
 }
 
-body {
-
-    font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('assets/fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
 }
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('assets/fonts/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Spin Cycle';
+    src: url('assets/fonts/spin_cycle/spincycle_ot.otf') format('opentype');
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+.container {
+    /* border: 2px solid #ccc; */
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+}
+
+a:hover,
+a:active {
+    color: #FF6565;
+}
+
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+.background_color{
+    background-image: url('assets/images/headphones_hero_1.jpg');
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex; */
+}
+/* Header Styles */
+  header {
+    /* background-color: #FF6565; */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+
+.logo {
+    font-family: 'Spin Cycle';
+    font-size: 24px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.head_logo{
+   width: 160px;
+   height: auto;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav li {
+    margin-right: 33px;
+   
+    /* display: flex;
+    gap: 40px; */
+    /* justify-content: center; */
+    
+}
+nav ul li {
+    padding: 0px;
+    
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 12px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Add more mobile-specific styles here */
+    nav {
+        width: 100%;
+    }
+    
+    .header-content {
+        flex-direction: column;
+    }
+    
+    .what-we-do {
+        flex-direction: column;
+    }
+    
+    .results {
+        flex-direction: column;
+    }
+    
+    .contact {
+        padding: 20px;
+    }
+}
+
