@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro';
 }
 
 
@@ -33,12 +33,13 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     /* padding: 0 20px; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 a:hover,
 a:active {
     color: #FF6565;
+    
 }
 
 button:hover,
@@ -113,7 +114,7 @@ nav a {
 }
 
 
-/* MAIN CONTENT STYLES */
+
 
 .hero{
     display: flex;
@@ -137,6 +138,7 @@ nav a {
 .hero-head p {
     font-size: 18px;
     color: #fff;
+
     /* margin-bottom: 30px; */
 }
 
@@ -146,31 +148,119 @@ nav a {
 
 .hero-btn p {
     color: #fff;
-    font-weight: normal;
+    font-family: 'Source Sans Pro light';  
+    line-height: 1.5; 
     /* font-size: 12px; */
     /* margin-bottom: 20px; */
 }
 
-.hero-btn button {
+ .hero-btn a .btn {
     background-color: #FF6565;
     color: #fff;
     border: none;
-    padding:10px 35px;
-    font-size: 16px;
+    padding:14px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
     cursor: pointer;
     border-radius: 30px;
     transition: background-color 0.3s ease;
     margin-bottom: 80px;
 }
+ a .btn:hover {
+    background-color:  #FF6565;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 
-
-.hero-btn button:hover {
-    background-color: #FF6565;
+/* MAIN CONTENT STYLES */
+  .what-we-do-head{
+    /* border: 2px solid #ccc; */
+    padding: 2px 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 
+.what-we-do-head h2 {
 
-  
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.what-we-do-head p.para {
+    text-align: center;
+    font-size: 16px;
+    color: 071629;
+    font-family: 'Source Sans Pro light';   
+    margin-bottom: 40px;
+}
+
+
+.holberton_school-icon-ic_sound {
+    font-size: 32px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+ section.what-we-do {
+    
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+    /* border: 2px solid #ccc; */
+    margin-bottom: 40px; 
+}
+.feature-item{
+    margin-right: 10px;
+}
+.what-we-do p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    /* margin-bottom: 20px; */
+}
+.what-we-do h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.holberton_school-icon-ic_video {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_music {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_hearing {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_earphones {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_sound{
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+
 
 
 
