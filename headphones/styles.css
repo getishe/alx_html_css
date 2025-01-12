@@ -50,7 +50,7 @@ button:active {
     /* background-size: cover; */
     /* background-position: center; */
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 200vh;
     /* display: flex; */
 }
 /* Header Styles */
@@ -61,7 +61,7 @@ button:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
 }
 
 .logo {
@@ -111,6 +111,90 @@ nav a {
     display: flex;
     align-items: center;
 }
+
+
+/* MAIN CONTENT STYLES */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.hero-head {
+    text-align: center;
+    padding: 60px;
+    margin-top: 140px;
+}
+
+.hero-head h1 {
+    font-size: 38px;
+    color: #fff;
+    /* margin-bottom: 20px; */
+}
+.hero-head p {
+    font-size: 18px;
+    color: #fff;
+    /* margin-bottom: 30px; */
+}
+
+.hero-btn{
+    padding: 2px 200px;
+}
+
+.hero-btn p {
+    color: #fff;
+    font-weight: normal;
+    /* font-size: 12px; */
+    /* margin-bottom: 20px; */
+}
+
+.hero-btn button {
+    background-color: #FF6565;
+    color: #fff;
+    border: none;
+    padding:10px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 80px;
+}
+
+
+.hero-btn button:hover {
+    background-color: #FF6565;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
