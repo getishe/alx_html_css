@@ -21,8 +21,9 @@
     src: url('assets/fonts/spin_cycle/spincycle_ot.otf') format('opentype');
 }
 
-body {
+html, body {
     font-family: 'Source Sans Pro';
+    color: #071629;
 }
 
 
@@ -334,12 +335,16 @@ section.results {
     width: 100%;
     height: 100%;
     z-index: 1;
+    border: 2px solid #fff;
+    width: 190px;
+    height: 190px;
 }
 .result-content {
     position: relative;
     z-index: 2;
     text-align: center;
     color: white;
+    border: 2px solid #fff;
 } 
 
 .result-content h3 {
@@ -352,6 +357,91 @@ section.results {
     margin-top: 10px;
     font-size: 14px;
 }
+
+/* contact */
+section .contact {
+    /* background-color: #FF6565; */
+    /* color: #fff; */
+    padding: 20px;
+    /* display: flex; */
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.contact h2 {
+    /* border: 2px solid #bd2121; */
+    font-size: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    /* border: 2px solid #9c2424; */
+}
+
+.contact form input,
+.contact form textarea {
+   
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact form input {
+    height: 40px;
+    border: none;
+    border-color: none;
+    text-transform: capitalize;
+}
+
+.contact form textarea {
+    height: 100px;
+}
+.form-group input {
+    border: none !important;
+    outline: none; /* This can also help remove the default focus outline */
+}
+
+  
+
+.contact form button {
+    background-color: #FF6565;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    /* width: 50%; */
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    transition: background-color 0.3s ease;
+
+}
+
+.contact form button:hover {
+    background-color: #ccc;
+}
+
+
+
+
  
 
 
