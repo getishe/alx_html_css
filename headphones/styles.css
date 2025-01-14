@@ -223,6 +223,11 @@ nav a {
 .feature-item{
     margin-right: 10px;
 }
+
+.feature-item p{
+    /* border: 2px solid #ccc; */
+    padding: 5px ;
+}
 .what-we-do p {
     font-size: 14px;
     line-height: 1.5;
