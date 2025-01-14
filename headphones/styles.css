@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('assets/fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('assets/fonts/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Spin Cycle';
+    src: url('assets/fonts/spin_cycle/spincycle_ot.otf') format('opentype');
+}
+
+body {
+    font-family: 'Source Sans Pro';
+}
+
+
+
+
+.container {
+    /* border: 2px solid #ccc; */
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+    /* box-sizing: border-box; */
+}
+
+a:hover,
+a:active {
+    color: #FF6565;
+    
+}
+
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+.background_color{
+    background-image: url('assets/images/headphones_hero_1.jpg');
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 200vh;
+    /* display: flex; */
+}
+/* Header Styles */
+  header {
+    /* background-color: #FF6565; */
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #ccc; */
+}
+
+.logo {
+    font-family: 'Spin Cycle';
+    font-size: 24px;
+    /* font-weight: bold; */
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.head_logo{
+   width: 160px;
+   height: auto;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav li {
+    margin-right: 33px;
+   
+    /* display: flex;
+    gap: 40px; */
+    /* justify-content: center; */
+    
+}
+nav ul li {
+    padding: 0px;
+    
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 12px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.hero-head {
+    text-align: center;
+    padding: 60px;
+    margin-top: 140px;
+}
+
+.hero-head h1 {
+    font-size: 38px;
+    color: #fff;
+    /* margin-bottom: 20px; */
+}
+.hero-head p {
+    font-size: 18px;
+    color: #fff;
+
+    /* margin-bottom: 30px; */
+}
+
+.hero-btn{
+    padding: 2px 200px;
+}
+
+.hero-btn p {
+    color: #fff;
+    font-family: 'Source Sans Pro light';  
+    line-height: 1.5; 
+    /* font-size: 12px; */
+    /* margin-bottom: 20px; */
+}
+
+ .hero-btn a .btn {
+    background-color: #FF6565;
+    color: #fff;
+    border: none;
+    padding:14px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 80px;
+}
+ a .btn:hover {
+    background-color:  #FF6565;
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* MAIN CONTENT STYLES */
+  .what-we-do-head{
+    /* border: 2px solid #ccc; */
+    padding: 2px 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.what-we-do-head h2 {
+
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.what-we-do-head p.para {
+    text-align: center;
+    font-size: 16px;
+    color: 071629;
+    font-family: 'Source Sans Pro light';   
+    margin-bottom: 40px;
+}
+
+
+.holberton_school-icon-ic_sound {
+    font-size: 32px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+ section.what-we-do {
+    
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+    /* border: 2px solid #ccc; */
+    margin-bottom: 40px; 
+}
+.feature-item{
+    margin-right: 10px;
+}
+.what-we-do p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    /* margin-bottom: 20px; */
+}
+.what-we-do h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.holberton_school-icon-ic_video {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_music {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_hearing {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_earphones {
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+.holberton_school-icon-ic_sound{
+    font-size: 97px;
+    color: #FF6565;
+    margin-bottom: 20px;
+}
+
+/* results */
+section.results {
+    background-image: url('assets/images/headphones_hero_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container-result{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.results-head {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+     padding: 2px 200px;
+ 
+}
+
+.results-head h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 120px;
+    
+}
+
+.results-head p.para {
+    text-align: center;
+    font-size: 16px;
+    color: 071629;
+    font-family: 'Source Sans Pro light';   
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.results-content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+ .result-item {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.result-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.result-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+} 
+
+.result-content h3 {
+    font-size: 46px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.result-content p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Add more mobile-specific styles here */
+    nav {
+        width: 100%;
+    }
+    
+    .header-content {
+        flex-direction: column;
+    }
+    
+    .what-we-do {
+        flex-direction: column;
+    }
+    
+    .results {
+        flex-direction: column;
+    }
+    
+    .contact {
+        padding: 20px;
+    }
+}
+
+
+
