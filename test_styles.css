@@ -218,6 +218,9 @@
   
   /* Small Mobile (375px and below) */
   @media screen and (max-width: 375px) {
+    body{
+      width: 100%;
+    }
     .banner h1 {
       font-size: 36px;
     }
