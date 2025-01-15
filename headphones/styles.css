@@ -31,7 +31,7 @@ html, body {
 
 
 .container {
-    /* border: 2px solid #ccc; */
+    border: 2px solid #ccc;
     max-width: 1000px;
     margin: 0 auto;
     /* padding: 0 20px; */
@@ -53,7 +53,9 @@ button:active {
     /* background-size: cover; */
     /* background-position: center; */
     background-repeat: no-repeat;
-    height: 200vh;
+    background-clip: border-box;
+    /* height: 130vh; */
+    /* border: 9px solid red; */
     /* display: flex; */
 }
 /* Header Styles */
@@ -181,7 +183,7 @@ nav a {
     padding: 2px 200px;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -455,6 +457,7 @@ footer {
     color: #fff;
     padding: 90px 90px 0 90px;
     width: 100%;
+    
     /* margin-top: 40px; */
     /* height: 249px; */
  
@@ -467,7 +470,8 @@ footer {
     align-items: center;
     margin: 0 auto;
     padding: 20px;
-    /* border-bottom: 9px solid #444 ; */
+    /* border: 2px solid #ccc; */
+    /* border-bottom: 9px solid #ccc ; */
 }
 
 
