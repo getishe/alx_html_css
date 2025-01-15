@@ -50,13 +50,13 @@ button:active {
 }
 .background_color{
     background-image: url('assets/images/headphones_hero_1.jpg');
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-clip: border-box;
-    /* height: 130vh; */
-    /* border: 9px solid red; */
-    /* display: flex; */
+    height: 130vh;
+    width: 100%;
+    
 }
 /* Header Styles */
   header {
@@ -516,7 +516,14 @@ footer a {
 }
 
 /* Responsive Styles */
+/* Tablet Styles */
 @media screen and (max-width: 768px ) {
+
+
+    }
+
+  
+
     
     
 }
