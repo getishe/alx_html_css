@@ -570,7 +570,7 @@ footer a {
     width: 15px;
     height: 3px;
     background-color: #fff;
-    margin: 4px 0;
+    margin: 1px 0;
 }
 @media screen and (max-width: 480px) {
     .hamburger {
