@@ -694,13 +694,18 @@ footer a {
     .hero-btn {
         padding: 2px 50px;
     }
+    section.results{
+        height: 150vh;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .feature-item {
         width: 100%;
     }
-
+    section.results{
+        height: 240vh;
+    }
     .result-item {
         width: 100%;
     }
