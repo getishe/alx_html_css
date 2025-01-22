@@ -695,7 +695,7 @@ footer a {
         padding: 2px 50px;
     }
     section.results{
-        height: 150vh;
+        height: 160vh;
     }
 }
 
@@ -704,7 +704,7 @@ footer a {
         width: 100%;
     }
     section.results{
-        height: 240vh;
+        height: 270vh;
     }
     .result-item {
         width: 100%;
