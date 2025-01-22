@@ -31,7 +31,7 @@ html, body {
 
 
 .container {
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
     max-width: 1000px;
     margin: 0 auto;
     /* padding: 0 20px; */
@@ -84,7 +84,7 @@ button:active {
 }
 
 .nav-links{
-    border: 2px solid #d34242;
+    /* border: 2px solid #d34242; */
     display: flex;
     list-style: none;
     margin: 0;
@@ -137,7 +137,7 @@ nav a {
 /* Humberger menu */
 
 .hero{
-    border: 2px solid #ad1717;
+    /* border: 2px solid #ad1717; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +146,7 @@ nav a {
     text-align: center;
 }
 .hero-head {
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
     text-align: center;
     padding: 60px;
     margin-top: 140px;
@@ -165,7 +165,7 @@ nav a {
 }
 
 .hero-btn{
-    border: 2px solid #b92424;
+    /* border: 2px solid #b92424; */
     padding: 2px 200px;
    margin-top: 0 auto;
     margin-bottom: 100px; 
@@ -668,6 +668,17 @@ footer a {
         padding: 0 15px;
     }
 
+    .background_color{
+    /* background-image: url('assets/images/headphones_hero_1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 170vh;
+    width: 100%;
+    
+}
+
     .section-content {
         flex-wrap: wrap;
         gap: 30px;
@@ -700,6 +711,15 @@ footer a {
 }
 
 @media screen and (max-width: 480px) {
+    .background_color{
+       background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 215vh;
+    width: 100%;
+        
+    }
     .feature-item {
         width: 100%;
     }
@@ -743,7 +763,7 @@ footer a {
     }
 
     .nav-links.active {
-        background-color: rgba(0, 0, 0, 0.9);
+        /* background-color: rgba(0, 0, 0, 0.9); */
         flex-direction: column;
         padding: 20px 0;
     }
